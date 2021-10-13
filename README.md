@@ -1,4 +1,4 @@
-# UFOs_Challenge# UFO Challenge Analysis
+# UFO Challenge Analysis
 
 ## Overview of Project
 
@@ -19,13 +19,20 @@ Dana wants to create a searchable database for users to be able to looke up UFO 
 
 ## Results
 The UFO Website was edited to contain multiple filters for finding UFO sighting information. The homepage now includes filters for data, location, and shape. The updates allow one to search by shape or location, or even multiple filters. 
-***add ufo website prefilter, nj filter, and date
+
+![UFO Website - Pre-Filter](https://user-images.githubusercontent.com/88064181/137225487-b4227012-a109-43c7-b535-62c53ea3d3d9.png)
+
+![UFO Website - nj filter](https://user-images.githubusercontent.com/88064181/137225491-47d54133-9407-410e-acd6-cb0b7e5c1879.png)
+
+![UFO Website - Date](https://user-images.githubusercontent.com/88064181/137225496-0fa71a3d-34ef-49d7-bd5e-b162ea182dd6.png)
 
 
 ## Summary 
 
 While the website is looking great thanks to Bootstrap and CSS components, there are some drawbacks that keep it from being fully functional. Users of this website must know the exact location they are searching for, and type it into the filter as it was typed in data.js. If the user capatalizes a letter that is not capital in the data, the filter will not recognize the location. As seen below, a user searched for "NJ" instead of "nj" and was returned zero results. Furthermore, the filter only allows a user to search for a singular date. Again, if the user is off by one day, it will not come back with any data for the user. 
-***add NJ error code
+
+
+![UFO Website - NJ error](https://user-images.githubusercontent.com/88064181/137225506-9a962e7d-f250-4e96-848f-235de4fbae26.png)
 
 These drawbacks are easy enough are easy enough to fix to allow for a more user-friendly filtered data table. An update to the city and state filters to allow for additional spaces and accept upper/lower case letters will allow users to see the city/state they are asking for as long as it is spelled correctly. 
 
